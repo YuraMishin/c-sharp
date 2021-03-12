@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="T:Application.Factorial">
+            <summary>
+            Class Factorial.
+            Calculates factorial value
+            </summary>
+        </member>
+        <member name="M:Application.Factorial.Get(System.Int32)">
+            <summary>
+            Method calculates factorial
+            </summary>
+            <param name="value">Value</param>
+            <returns>int</returns>
+        </member>
+    </members>
+</doc>

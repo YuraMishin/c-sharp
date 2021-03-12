@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application.UnitTests</name>
+    </assembly>
+    <members>
+        <member name="T:Application.UnitTests.FactorialTest">
+            <summary>
+            Class FactorialTests.
+            Tests Factorial class
+            </summary>
+        </member>
+        <member name="M:Application.UnitTests.FactorialTest.#ctor(Xunit.Abstractions.ITestOutputHelper)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="output"></param>
+        </member>
+        <member name="M:Application.UnitTests.FactorialTest.Get_Input4_Return24">
+            <summary>
+            Tests Get() method
+            </summary>
+        </member>
+        <member name="M:Application.UnitTests.FactorialTest.Get_InputBulk_ReturnCorrect(System.Int32,System.Int32)">
+            <summary>
+            Tests Get() method
+            </summary>
+            <param name="input">input</param>
+            <param name="expected">expected</param>
+        </member>
+    </members>
+</doc>

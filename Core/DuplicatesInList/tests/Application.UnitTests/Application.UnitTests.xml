@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application.UnitTests</name>
+    </assembly>
+    <members>
+        <member name="T:Application.UnitTests.SolutionTest">
+            <summary>
+            Class SolutionTest.
+            Tests Solution class
+            </summary>
+        </member>
+        <member name="M:Application.UnitTests.SolutionTest.GetResult_InputArray_OutputDuplicates">
+            <summary>
+            Tests GetResult() method
+            </summary>
+        </member>
+        <member name="M:Application.UnitTests.SolutionTest.GetResultLINQ_InputArray_OutputDuplicates">
+            <summary>
+            Tests GetResultLINQ() method
+            </summary>
+        </member>
+    </members>
+</doc>

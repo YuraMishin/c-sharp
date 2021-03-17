@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="T:Application.Solution">
+            <summary>
+            Class Solution.
+            Check for duplicates in list 
+            </summary>
+        </member>
+        <member name="M:Application.Solution.GetResult(System.Int32[])">
+            <summary>
+            Method handles the task
+            </summary>
+            <param name="ints">ints</param>
+            <returns>int[]</returns>
+        </member>
+        <member name="M:Application.Solution.GetResultLINQ(System.Int32[])">
+            <summary>
+            Method handles the task via LINQ
+            </summary>
+            <param name="ints">ints</param>
+            <returns>int[]</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.ConsoleDrawer">
+            <summary>
+            Class ConsoleDrawer
+            </summary>
+        </member>
+        <member name="M:Domain.ConsoleDrawer.DrawPoint(System.Int32,System.Int32)">
+            <summary>
+            Method draws point
+            </summary>
+            <param name="x">x</param>
+            <param name="y">y</param>
+        </member>
+        <member name="M:Domain.ConsoleDrawer.HidePoint(System.Int32,System.Int32)">
+            <summary>
+            Method hides point
+            </summary>
+            <param name="x">x</param>
+            <param name="y">y</param>
+        </member>
+        <member name="M:Domain.ConsoleDrawer.WriteGameOver">
+            <summary>
+            Method prints game over
+            </summary>
+        </member>
+        <member name="M:Domain.ConsoleDrawer.InitField">
+            <summary>
+            Method inits CLI window
+            </summary>
+        </member>
+        <member name="T:Domain.Direction">
+            <summary>
+            Enum Direction
+            </summary>
+        </member>
+        <member name="F:Domain.Direction.LEFT">
+            <summary>
+            Left
+            </summary>
+        </member>
+        <member name="F:Domain.Direction.RIGHT">
+            <summary>
+            Right
+            </summary>
+        </member>
+        <member name="F:Domain.Direction.DOWN">
+            <summary>
+            Down
+            </summary>
+        </member>
+        <member name="F:Domain.Direction.UP">
+            <summary>
+            Up
+            </summary>
+        </member>
+        <member name="T:Domain.DrawerProvider">
+            <summary>
+            Class DrawerProvider
+            </summary>
+        </member>
+        <member name="F:Domain.DrawerProvider._drawer">
+            <summary>
+            IDrawer
+            </summary>
+        </member>
+        <member name="P:Domain.DrawerProvider.Drawer">
+            <summary>
+            IDrawer getter
+            </summary>
+        </member>
+        <member name="T:Domain.Field">
+            <summary>
+            Class Field
+            </summary>
+        </member>
+        <member name="P:Domain.Field.Width">
+            <summary>
+            Getter
+            </summary>
+        </member>
+        <member name="P:Domain.Field.Height">
+            <summary>
+            Getter
+            </summary>
+        </member>
+        <member name="M:Domain.Field.CheckStrike(Domain.Point)">
+            <summary>
+            Method checks strike
+            </summary>
+            <param name="p">p</param>
+            <returns>book</returns>
+        </member>
+        <member name="M:Domain.Field.AddFigure(Domain.Figure)">
+            <summary>
+            Method adds figure
+            </summary>
+            <param name="fig">fig</param>
+        </member>
+        <member name="M:Domain.Field.TryDeleteLines">
+            <summary>
+            Methods tries deleting lines
+            </summary>
+        </member>
+        <member name="T:Domain.Figure">
+            <summary>
+            Class Figure
+            </summary>
+        </member>
+        <member name="F:Domain.Figure.Points">
+            <summary>
+            Points
+            </summary>
+        </member>
+        <member name="M:Domain.Figure.Draw">
+            <summary>
+            Method draws point
+            </summary>
+        </member>
+        <member name="M:Domain.Figure.TryMove(Domain.Direction)">
+            <summary>
+            Method tries moving figure
+            </summary>
+            <param name="dir">dir</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:Domain.Figure.TryRotate">
+            <summary>
+            Method tries rotating
+            </summary>
+            <returns>Result</returns>
+        </member>
+        <member name="M:Domain.Figure.IsOnTop">
+            <summary>
+            Method checks if figure is on top
+            </summary>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Domain.Figure.Move(Domain.Direction)">
+            <summary>
+            Method moves figure
+            </summary>
+            <param name="dir">direction</param>
+        </member>
+        <member name="M:Domain.Figure.Rotate">
+            <summary>
+            Method rotates figure
+            </summary>
+        </member>
+        <member name="M:Domain.Figure.Hide">
+            <summary>
+            Method hides figure
+            </summary>
+        </member>
+        <member name="T:Domain.FigureGenerator">
+            <summary>
+            Class FigureGenerator
+            </summary>
+        </member>
+        <member name="M:Domain.FigureGenerator.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="x">x</param>
+            <param name="y">y</param>
+        </member>
+        <member name="M:Domain.FigureGenerator.GetNewFigure">
+            <summary>
+            Method gets new figure
+            </summary>
+            <returns>Figure</returns>
+        </member>
+        <member name="T:Domain.IDrawer">
+            <summary>
+            Interface IDrawer
+            </summary>
+        </member>
+        <member name="M:Domain.IDrawer.DrawPoint(System.Int32,System.Int32)">
+            <summary>
+            Method draws point
+            </summary>
+            <param name="x">x</param>
+            <param name="y">y</param>
+        </member>
+        <member name="M:Domain.IDrawer.HidePoint(System.Int32,System.Int32)">
+            <summary>
+            Method hides point
+            </summary>
+            <param name="x">x</param>
+            <param name="y">y</param>
+        </member>
+        <member name="M:Domain.IDrawer.WriteGameOver">
+            <summary>
+            Method writes game over
+            </summary>
+        </member>
+        <member name="M:Domain.IDrawer.InitField">
+            <summary>
+            Method inits field
+            </summary>
+        </member>
+        <member name="T:Domain.Point">
+            <summary>
+            Class Point
+            </summary>
+        </member>
+        <member name="P:Domain.Point.X">
+            <summary>
+            X
+            </summary>
+        </member>
+        <member name="P:Domain.Point.Y">
+            <summary>
+            Y
+            </summary>
+        </member>
+        <member name="M:Domain.Point.Draw">
+            <summary>
+            Method draws point
+            </summary>
+        </member>
+        <member name="M:Domain.Point.#ctor(Domain.Point)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="p">Point</param>
+        </member>
+        <member name="M:Domain.Point.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="a">a</param>
+            <param name="b">b</param>
+        </member>
+        <member name="M:Domain.Point.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:Domain.Result">
+            <summary>
+            Enum Result
+            </summary>
+        </member>
+        <member name="F:Domain.Result.SUCCESS">
+            <summary>
+            SUCCESS
+            </summary>
+        </member>
+        <member name="F:Domain.Result.DOWN_BORDER_SRIKE">
+            <summary>
+            DOWN_BORDER_SRIKE
+            </summary>
+        </member>
+        <member name="F:Domain.Result.BORDER_STRIKE">
+            <summary>
+            BORDER_STRIKE
+            </summary>
+        </member>
+        <member name="F:Domain.Result.HEAP_STRIKE">
+            <summary>
+            HEAP_STRIKE
+            </summary>
+        </member>
+    </members>
+</doc>

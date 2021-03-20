@@ -14,6 +14,7 @@
 + [NuGet package manager](https://www.nuget.org/)
 + [Fiddler. Web debugging tool for logging HTTP/S traffic](https://www.telerik.com/fiddler)
 + [Postman](https://www.postman.com/)
++ [Microsoft Small Basic](https://smallbasic-publicwebsite.azurewebsites.net/)
 ## TDD
 + [NUnit](https://nunit.org/)
 + [xUnit](https://xunit.net/)

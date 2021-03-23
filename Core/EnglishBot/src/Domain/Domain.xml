@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.Tutor">
+            <summary>
+            Class Tutor
+            </summary>
+        </member>
+        <member name="M:Domain.Tutor.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:Domain.Tutor.AddWord(System.String,System.String)">
+            <summary>
+            Method adds word
+            </summary>
+            <param name="eng">eng</param>
+            <param name="rus">rus</param>
+        </member>
+        <member name="M:Domain.Tutor.CheckWord(System.String,System.String)">
+            <summary>
+            Method checks word
+            </summary>
+            <param name="eng">eng</param>
+            <param name="rus">rus</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:Domain.Tutor.Translate(System.String)">
+            <summary>
+            Method translates word
+            </summary>
+            <param name="eng">eng</param>
+            <returns>string</returns>
+        </member>
+        <member name="M:Domain.Tutor.GetRandomEngWord">
+            <summary>
+            Method gets random English word
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:Domain.WordStorage">
+            <summary>
+            Class WordStorage
+            </summary>
+        </member>
+        <member name="M:Domain.WordStorage.GetAllWords">
+            <summary>
+            Method gets all words
+            </summary>
+            <returns>Dictionary&lt;string, string&gt;</returns>
+        </member>
+        <member name="M:Domain.WordStorage.AddWord(System.String,System.String)">
+            <summary>
+            Method adds word
+            </summary>
+            <param name="eng">eng</param>
+            <param name="rus">rus</param>
+        </member>
+    </members>
+</doc>

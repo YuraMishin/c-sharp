@@ -102,6 +102,11 @@
 + [React-toastify](https://fkhadra.github.io/react-toastify/)
 + [React Widgets](https://jquense.github.io/react-widgets/)
 + [JSON Web Tokens](https://jwt.io/)
+## Templates
++ [creative-tim.com](https://www.creative-tim.com/)
++ [mashup-template.com](http://www.mashup-template.com/)
+## RegEx
++ [regexr.com](https://regexr.com/)
 ## Database and SQL
 + [Microsoft SQL Server Express](https://www.microsoft.com/en-Us/download/details.aspx?id=55994)
 + [PostgreSQL](https://www.postgresql.org/download/)

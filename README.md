@@ -38,12 +38,14 @@
 + [carbon.now.sh](https://carbon.now.sh/)
 + [Таблица символов Юникода](https://unicode-table.com/ru/)
 + [Plunker IDE](https://plnkr.co/)
++ [dotnetfiddle.net](https://dotnetfiddle.net/)
 + [Chocolatey](https://chocolatey.org/)
 + [Codepen.io](https://codepen.io/)
 + [Stripe](https://stripe.com/)
 + [SendGrid](https://app.sendgrid.com/)
 + [Mailtrap](https://mailtrap.io/)
 + [Swagger](https://swagger.io/)
++ [FTP Client Filezilla](https://filezilla.ru/)
 ## Microsoft
 + [Microsoft Documentation](https://docs.microsoft.com/en-us/)
 + [C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -102,9 +104,13 @@
 + [React-toastify](https://fkhadra.github.io/react-toastify/)
 + [React Widgets](https://jquense.github.io/react-widgets/)
 + [JSON Web Tokens](https://jwt.io/)
++ [Hosting smarterasp.net](https://www.smarterasp.net/)
++ [Google Domains](https://domains.google/)
++ [temp-mail.org](https://temp-mail.org/)
 ## Templates
 + [creative-tim.com](https://www.creative-tim.com/)
 + [mashup-template.com](http://www.mashup-template.com/)
++ [Trumbowyg JS Editor](https://alex-d.github.io/Trumbowyg/)
 ## RegEx
 + [regexr.com](https://regexr.com/)
 ## Database and SQL

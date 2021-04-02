@@ -86,6 +86,7 @@
 + [Vue](https://vuejs.org/)
 + [Vue 3 Docs](https://v3.vuejs.org/guide/installation.html)
 + [Vue CLI](https://cli.vuejs.org/)
++ [Vuetifyjs.com](https://vuetifyjs.com/en/)
 + [BabelJS](https://babeljs.io/repl)
 + [Zondicons](https://www.zondicons.com/)
 + [EmotionJS](https://github.com/emotion-js/emotion)

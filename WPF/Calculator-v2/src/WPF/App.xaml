@@ -4,6 +4,16 @@
              xmlns:local="clr-namespace:WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="numbersColor" Color="#444444"></SolidColorBrush>
+        <SolidColorBrush x:Key="operatorsColor" Color="Orange"></SolidColorBrush>
+        <SolidColorBrush x:Key="foregroundColor" Color="White"></SolidColorBrush>
+
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="25"></Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="70"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

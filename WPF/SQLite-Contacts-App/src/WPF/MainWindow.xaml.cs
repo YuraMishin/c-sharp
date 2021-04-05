@@ -1,5 +1,7 @@
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 using SQLite;
 using WPF.Classes;
 
@@ -10,8 +12,11 @@ namespace WPF
   /// </summary>
   public partial class MainWindow : Window
   {
+    List<Contact> contacts;
+
     public MainWindow()
     {
+      contacts = new List<Contact>();
       InitializeComponent();
       ReadDatabase();
     }
@@ -25,10 +30,11 @@ namespace WPF
 
     void ReadDatabase()
     {
-      List<Contact> contacts;
       using var conn = new SQLiteConnection(App.databasePath);
       conn.CreateTable<Contact>();
-      contacts = conn.Table<Contact>().ToList();
+      contacts = (conn.Table<Contact>().ToList())
+        .OrderBy(contact => contact.Name)
+        .ToList();
 
       if (contacts != null)
       {
@@ -41,6 +47,24 @@ namespace WPF
         //}
         ContactsListView.ItemsSource = contacts;
       }
+    }
+
+    private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+    {
+      var searchTextBox = sender as TextBox;
+      var filteredList = contacts
+        .Where(contact => contact.Name.ToLower().Contains(searchTextBox.Text.ToLower()))
+        .ToList();
+
+      var filteredList2 = (
+        from contact in contacts
+        where contact.Name.ToLower().Contains(searchTextBox.Text.ToLower())
+        orderby contact.Email
+        select contact
+        ).ToList();
+
+      ContactsListView.ItemsSource = filteredList;
+
     }
   }
 }

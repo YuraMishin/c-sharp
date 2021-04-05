@@ -11,6 +11,9 @@
             Content="New Contact"
             Click="Button_Click"
             />
+        <TextBox
+            TextChanged="TextBox_TextChanged"
+            Margin="0,5,0,5"/>
         <ListView 
             Height="280"
             x:Name="ContactsListView" 

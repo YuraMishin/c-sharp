@@ -9,5 +9,11 @@ namespace WPF.Classes
     public string Name { get; set; }
     public string Email { get; set; }
     public string Phone { get; set; }
+
+    /// <inheritdoc />
+    public override string ToString()
+    {
+      return $"{Name} - {Email} - {Phone}";
+    }
   }
 }

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Windows;
 using SQLite;
 using WPF.Classes;
@@ -24,9 +25,22 @@ namespace WPF
 
     void ReadDatabase()
     {
+      List<Contact> contacts;
       using var conn = new SQLiteConnection(App.databasePath);
       conn.CreateTable<Contact>();
-      var contacts = conn.Table<Contact>().ToList();
+      contacts = conn.Table<Contact>().ToList();
+
+      if (contacts != null)
+      {
+        //foreach (var contact in contacts)
+        //{
+        //  ContactsListView.Items.Add(new ListViewItem
+        //  {
+        //    Content = contact
+        //  });
+        //}
+        ContactsListView.ItemsSource = contacts;
+      }
     }
   }
 }

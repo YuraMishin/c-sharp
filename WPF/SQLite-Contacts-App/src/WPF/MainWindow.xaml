@@ -15,6 +15,7 @@
             TextChanged="TextBox_TextChanged"
             Margin="0,5,0,5"/>
         <ListView 
+            SelectionChanged="ContactsListView_SelectionChanged"
             Height="280"
             x:Name="ContactsListView" 
             Margin="0,5,0,0">

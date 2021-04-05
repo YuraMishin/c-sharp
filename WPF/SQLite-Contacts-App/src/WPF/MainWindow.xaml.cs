@@ -66,5 +66,15 @@ namespace WPF
       ContactsListView.ItemsSource = filteredList;
 
     }
+
+    private void ContactsListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+      var selectedContact = ContactsListView.SelectedItem as Contact;
+      if (selectedContact != null)
+      {
+        var contactDetailsWindow = new ContactDetailsWindow(selectedContact);
+        contactDetailsWindow.ShowDialog();
+      }
+    }
   }
 }

@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
         <StackPanel Margin="10">
             <Button 
                 HorizontalAlignment="Center"
@@ -14,5 +18,25 @@
                 Content="Get Forecast">
             </Button>
         </StackPanel>
+        <ListView
+            x:Name="ForecastListView"
+            Grid.Column="1"
+            Width="300"
+            VerticalAlignment="Center"
+            >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Day" 
+                                    DisplayMemberBinding="{Binding Day}"
+                                    Width="100"/>
+                    <GridViewColumn Header="Temperature" 
+                                    DisplayMemberBinding="{Binding Temperature}"
+                                    Width="100"/>
+                    <GridViewColumn Header="Wind" 
+                                    DisplayMemberBinding="{Binding Wind}"
+                                    Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Window>

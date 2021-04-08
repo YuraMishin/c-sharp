@@ -1,3 +1,4 @@
+using System.Net.Http;
 using System.Windows;
 
 namespace WPF
@@ -12,9 +13,12 @@ namespace WPF
       InitializeComponent();
     }
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+    private async void Button_Click(object sender, RoutedEventArgs e)
     {
-
+      var url = "https://goweather.herokuapp.com/weather/Moscow";
+      using var client = new HttpClient();
+      var response = await client.GetAsync(url);
+      var responseString = await response.Content.ReadAsStringAsync();
     }
   }
 }

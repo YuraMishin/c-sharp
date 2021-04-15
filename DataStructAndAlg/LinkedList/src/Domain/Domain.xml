@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.LinkedList`1">
+            <summary>
+            Class LinkedList.
+            Implements linked list.
+            </summary>
+            <typeparam name="T">T</typeparam>
+        </member>
+        <member name="F:Domain.LinkedList`1._head">
+            <summary>
+            Head
+            </summary>
+        </member>
+        <member name="F:Domain.LinkedList`1._tail">
+            <summary>
+            Tail
+            </summary>
+        </member>
+        <member name="P:Domain.LinkedList`1.Count">
+            <summary>
+            Count
+            </summary>
+        </member>
+        <member name="M:Domain.LinkedList`1.Add(`0)">
+            <summary>
+            Method adds a value.
+            </summary>
+            <param name="value">value</param>
+        </member>
+        <member name="T:Domain.LinkedListNode`1">
+            <summary>
+            Class LinkedListNode.
+            Implements linked list node.
+            </summary>
+            <typeparam name="T">T</typeparam>
+        </member>
+        <member name="P:Domain.LinkedListNode`1.Value">
+            <summary>
+            Value
+            </summary>
+        </member>
+        <member name="P:Domain.LinkedListNode`1.Next">
+            <summary>
+            Next
+            </summary>
+        </member>
+        <member name="M:Domain.LinkedListNode`1.#ctor(`0)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="value">Value</param>
+        </member>
+    </members>
+</doc>

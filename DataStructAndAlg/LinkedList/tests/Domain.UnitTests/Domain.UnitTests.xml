@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Domain.UnitTests</name>
+    </assembly>
+    <members>
+        <member name="T:Domain.UnitTests.LinkedListNodeTest">
+            <summary>
+            LinkedListNodeTest.
+            Tests LinkedListNode class.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListNodeTest.NotNull_ReturnsTrue_WhenTests">
+            <summary>
+            Tests instance creation.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListNodeTest.IsType_ReturnsTrue_WhenTest">
+            <summary>
+            Tests instance type.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListNodeTest.Value_Returns2_WhenInvoke">
+            <summary>
+            Tests Value() method.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListNodeTest.Next_ReturnsNull_WhenInvoke">
+            <summary>
+            Tests Next() method.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListNodeTest.Next_IsTypeLinkedListNode_WhenInvoke">
+            <summary>
+            Tests Next() method.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListNodeTest.Value_GetsAllValues_WhenInvoke">
+            <summary>
+            Tests Next(), Value() methods.
+            </summary>
+        </member>
+        <member name="T:Domain.UnitTests.LinkedListTest">
+            <summary>
+            Class LinkedListTest.
+            Tests LinkedList class.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListTest.NotNull_IsTrue_WhenInvoke">
+            <summary>
+            Tests instance.
+            </summary>
+        </member>
+        <member name="M:Domain.UnitTests.LinkedListTest.IsType_IsTrue_WhenInvoke">
+            <summary>
+            Tests instance.
+            </summary>
+        </member>
+    </members>
+</doc>

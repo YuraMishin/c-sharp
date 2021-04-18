@@ -110,16 +110,32 @@
 + [temp-mail.org](https://temp-mail.org/)
 + [jsonutils.com](http://jsonutils.com/)
 + [materialdesignicons.com](https://materialdesignicons.com/)
-+ [unsplash.com](https://unsplash.com/)
++ [Free Images from unsplash.com](https://unsplash.com/)
 + [Trumbowyg JS Editor](https://alex-d.github.io/Trumbowyg/)
++ [w3schools.com](https://www.w3schools.com/)
++ [css-tricks.com](https://css-tricks.com/)
++ [Pick colors from paletton.com](https://paletton.com/)
++ [caniuse.com](https://caniuse.com/)
++ [zerotomastery.io/resources/](https://zerotomastery.io/resources/)
++ [Animate.css](https://animate.style/)
++ [Robot Image](https://robohash.org/)
++ [CSS Tachyons](https://tachyons.io/)
++ [Free fonts](https://www.cufonfonts.com/)
++ [Fake JSON Response](https://jsonplaceholder.typicode.com/)
 ## Templates
 + [creative-tim.com](https://www.creative-tim.com/)
 + [mashup-template.com](http://www.mashup-template.com/)
++ [cruip.com](https://cruip.com/)
++ [mdbootstrap.com/freebies](https://mdbootstrap.com/freebies/)
++ [startbootstrap.com/templates](https://startbootstrap.com/templates)
++ [Coding_Challenge](https://github.com/zero-to-mastery/Coding_Challenge-8)
 ## RegEx
 + [regexr.com](https://regexr.com/)
 ## Database and SQL
 + [Microsoft SQL Server Express](https://www.microsoft.com/en-Us/download/details.aspx?id=55994)
 + [PostgreSQL](https://www.postgresql.org/download/)
+## Selenium
++ [Most Exhaustive WebDriver Locators Cheat Sheet](https://www.automatetheplanet.com/selenium-webdriver-locators-cheat-sheet/)
 ## Паттерны
 ### Принципы ООП
 + [1. Инкапсуляция](https://www.youtube.com/watch?v=EvGi6XDgV7w)
@@ -135,3 +151,5 @@
 + [DRY](https://www.youtube.com/watch?v=NWemqNMCesQ)
 + [KISS](https://www.youtube.com/watch?v=rix-fkrloq4)
 + [YAGNI](https://www.youtube.com/watch?v=Ot2eB07rjcI)
+## Marketing
++ [mailchimp.com](https://mailchimp.com/)

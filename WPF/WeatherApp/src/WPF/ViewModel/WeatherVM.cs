@@ -1,5 +1,7 @@
 using System.ComponentModel;
 using WPF.Model;
+using WPF.ViewModel.Commands;
+using WPF.ViewModel.Helpers;
 
 namespace WPF.ViewModel
 {
@@ -41,6 +43,8 @@ namespace WPF.ViewModel
       }
     }
 
+    public SearchCommand SearchCommand { get; set; }
+
     public WeatherVM()
     {
       if (DesignerProperties.GetIsInDesignMode(new System.Windows.DependencyObject()))
@@ -52,6 +56,13 @@ namespace WPF.ViewModel
           Temperature = new Temperature { Metric = new Units { Value = 21 } }
         };
       }
+
+      SearchCommand = new SearchCommand(this);
+    }
+
+    public async void MakeQuery()
+    {
+      var cities = await AccuWeatherHelper.GetCities(Query);
     }
 
     /// <inheritdoc />

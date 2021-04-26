@@ -15,20 +15,31 @@ namespace CLI
     {
       for (int i = 1; i <= 25; i++)
       {
-        Console.WriteLine($"Fib({i,2}) = {Fib(i)}");
+        Console.WriteLine($"Fib({i,2}) = {FibLoop(i)}");
       }
 
       Console.ReadKey();
     }
 
     /// <summary>
-    /// Method calculates the fibo element
+    /// Method calculates the Fibo element
     /// </summary>
     /// <param name="N">N</param>
     /// <returns>int</returns>
-    private static int Fib(int N)
+    static int FibLoop(int N)
     {
-      return (N == 1 || N == 2) ? 1 : Fib(N - 1) + Fib(N - 2);
+      int a1 = 1;
+      int a2 = 1;
+      int t = a2;
+
+      for (int i = 2; i < N; i++)
+      {
+        t = a1 + a2;
+        a1 = a2;
+        a2 = t;
+      }
+
+      return t;
     }
   }
 }

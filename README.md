@@ -122,6 +122,7 @@
 + [CSS Tachyons](https://tachyons.io/)
 + [Free fonts](https://www.cufonfonts.com/)
 + [Fake JSON Response](https://jsonplaceholder.typicode.com/)
++ [heroicons](https://heroicons.com/)
 ## Templates
 + [creative-tim.com](https://www.creative-tim.com/)
 + [mashup-template.com](http://www.mashup-template.com/)

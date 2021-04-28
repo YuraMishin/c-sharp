@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLI</name>
+    </assembly>
+    <members>
+        <member name="T:CLI.Program">
+            <summary>
+            Class Program
+            </summary>
+        </member>
+        <member name="M:CLI.Program.GetDir(System.String,System.String)">
+            <summary>
+            Method 
+            </summary>
+            <param name="path">path</param>
+            <param name="trim">trim</param>
+        </member>
+    </members>
+</doc>

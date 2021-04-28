@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLI</name>
+    </assembly>
+    <members>
+        <member name="T:CLI.Program">
+            <summary>
+            Class Program
+            </summary>
+        </member>
+        <member name="M:CLI.Program.ToColor(System.Char[0:,0:],System.Int32,System.Int32)">
+            <summary>
+            Method fills the pixel
+            </summary>
+            <param name="Map">Map</param>
+            <param name="PosX">PosX</param>
+            <param name="PosY">PosY</param>
+        </member>
+        <member name="M:CLI.Program.Main(System.String[])">
+            <summary>
+            The application entry point
+            </summary>
+            <param name="args">args</param>
+        </member>
+    </members>
+</doc>

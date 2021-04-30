@@ -19,6 +19,18 @@ namespace CLI
     }
 
     /// <summary>
+    /// Method deserializes the object
+    /// </summary>
+    /// <param name="path">path</param>
+    /// <returns>Worker</returns>
+    static Worker DeserializeWorker(string path)
+    {
+      var xmlSerializer = new XmlSerializer(typeof(Worker));
+      using var fStream = new FileStream(path, FileMode.Open, FileAccess.Read);
+      return xmlSerializer.Deserialize(fStream) as Worker;
+    }
+
+    /// <summary>
     /// The application entry point
     /// </summary>
     /// <param name="args">args</param>
@@ -27,6 +39,9 @@ namespace CLI
       var worker = new Worker() { FirstName = "Ivan", LastName = "Ivanov" };
       SerializeWorker(worker, "Ivanov.xml");
       Console.WriteLine("Serialization is completed");
+      worker = DeserializeWorker("Ivanov.xml");
+      Console.WriteLine("Deserialization is completed");
+      Console.WriteLine(worker);
       Console.ReadKey();
     }
   }

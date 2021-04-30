@@ -8,8 +8,15 @@
             <summary>
             Method serializes the object
             </summary>
-            <param name="worker"></param>
-            <param name="path"></param>
+            <param name="worker">worker</param>
+            <param name="path">path</param>
+        </member>
+        <member name="M:CLI.Program.DeserializeWorker(System.String)">
+            <summary>
+            Method deserializes the object
+            </summary>
+            <param name="path">path</param>
+            <returns>Worker</returns>
         </member>
         <member name="M:CLI.Program.Main(System.String[])">
             <summary>
@@ -31,6 +38,9 @@
             <summary>
             Last Name
             </summary>
+        </member>
+        <member name="M:CLI.Worker.ToString">
+            <inheritdoc />
         </member>
     </members>
 </doc>

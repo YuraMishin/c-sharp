@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLI</name>
+    </assembly>
+    <members>
+        <member name="T:CLI.Program">
+            <summary>
+            Class Program
+            </summary>
+        </member>
+        <member name="M:CLI.Program.Main(System.String[])">
+            <summary>
+            The application entry point
+            </summary>
+            <param name="args">args</param>
+        </member>
+        <member name="T:CLI.Worker">
+            <summary>
+            Сlass Worker
+            </summary>
+        </member>
+        <member name="P:CLI.Worker.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:CLI.Worker.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+        <member name="M:CLI.Worker.ToString">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

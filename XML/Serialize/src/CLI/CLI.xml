@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLI</name>
+    </assembly>
+    <members>
+        <member name="M:CLI.Program.SerializeWorker(CLI.Worker,System.String)">
+            <summary>
+            Method serializes the object
+            </summary>
+            <param name="worker"></param>
+            <param name="path"></param>
+        </member>
+        <member name="M:CLI.Program.Main(System.String[])">
+            <summary>
+            The application entry point
+            </summary>
+            <param name="args">args</param>
+        </member>
+        <member name="T:CLI.Worker">
+            <summary>
+            Сlass Worker
+            </summary>
+        </member>
+        <member name="P:CLI.Worker.FirstName">
+            <summary>
+            First Name
+            </summary>
+        </member>
+        <member name="P:CLI.Worker.LastName">
+            <summary>
+            Last Name
+            </summary>
+        </member>
+    </members>
+</doc>

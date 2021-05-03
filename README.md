@@ -155,3 +155,13 @@
 + [YAGNI](https://www.youtube.com/watch?v=Ot2eB07rjcI)
 ## Marketing
 + [mailchimp.com](https://mailchimp.com/)
+## Bot
++ [Proxi](https://hidemy.name/)
++ [Портал открытых данных Правительства Москвы](https://data.mos.ru/)
++ [API портала открытых данных Правительства Москвы](https://apidata.mos.ru/)
++ [Twitch](https://dev.twitch.tv/)
++ [Discord Developer Documentation](https://discordapp.com/developers/docs/intro)
++ [[Discord Developer Documentation: Applications](https://discordapp.com/developers/applications/)
++ [Discord Verification](https://discordapp.com/verification)
++ [VK.com: Developers](https://vk.com/dev)
++ [Vk.com: Manuals](https://vk.com/dev/manuals)

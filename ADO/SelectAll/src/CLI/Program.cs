@@ -41,7 +41,7 @@ SELECT *
 from Workers
 ";
         var sqlCommand = new SqlCommand(sqlQuery, sqlConnection);
-        var reader = sqlCommand.ExecuteReader();
+        using var reader = sqlCommand.ExecuteReader();
         while (reader.Read())
         {
           //Console.WriteLine($"{reader[0]} | {reader[1]}");

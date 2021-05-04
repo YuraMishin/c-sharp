@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLI</name>
+    </assembly>
+    <members>
+        <member name="T:CLI.Program">
+            <summary>
+            Class Program
+            </summary>
+        </member>
+        <member name="M:CLI.Program.Main(System.String[])">
+            <summary>
+            The application entry point
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:CLI.Program.SelectAll(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            Method selects all the records
+            </summary>
+            <param name="connection">connection</param>
+        </member>
+    </members>
+</doc>

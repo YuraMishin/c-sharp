@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLI</name>
+    </assembly>
+    <members>
+        <member name="T:CLI.Data.AppDbContext">
+            <summary>
+            Class AppDbContext
+            </summary>
+        </member>
+        <member name="M:CLI.Data.AppDbContext.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:CLI.Data.AppDbContext.Employees">
+            <summary>
+            Employees
+            </summary>
+        </member>
+        <member name="M:CLI.Data.AppDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{CLI.Data.AppDbContext})">
+            <summary>
+            Method sets options
+            </summary>
+            <param name="options">options</param>
+        </member>
+        <member name="T:CLI.Models.Employee">
+            <summary>
+            Class Employee
+            </summary>
+        </member>
+        <member name="P:CLI.Models.Employee.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:CLI.Models.Employee.Name">
+            <summary>
+            Name
+            </summary>
+        </member>
+        <member name="T:CLI.Program">
+            <summary>
+            Class Program
+            </summary>
+        </member>
+        <member name="M:CLI.Program.Main(System.String[])">
+            <summary>
+            The application entry point
+            </summary>
+            <param name="args">args</param>
+        </member>
+        <member name="M:CLI.Program.SelectAll(CLI.Data.AppDbContext)">
+            <summary>
+            Method selects all the record
+            </summary>
+            <param name="db">db</param>
+        </member>
+    </members>
+</doc>
